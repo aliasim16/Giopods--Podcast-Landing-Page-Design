@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --primary:#5628AE;
+    --black:#1F1E25;
+    --white:#FFF;
+}
+
+.explore_container{
+    font-style: normal;
+    line-height: normal;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first_row  h1{
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.48px;
+    margin-bottom: 50px;
+}
+.second_row{
+    display: grid;
+    gap: 39.68px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 599.16px;
+    height: 380.923px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    padding-top: 31.74px;
+    padding-bottom: 30.75px;
+}
+
+.box h1{
+    color: var(--white);
+    font-size: 37.034px;
+    font-weight: 400;
+    letter-spacing: -0.37px;
+}
+
+.box .music_platforms{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 21.36px;
+}
+
+.box .text{
+    display: flex;
+    justify-content: center;
+}
+
+.first_col{
+    background-image: url(/Images/Explore_images/first_col.png);
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+
+.second_col{
+    background-image: url(/Images/Explore_images/second_col.png);
+    background-repeat: no-repeat;
+    background-size: contain;   
+    
+}
+.third_col{
+    background-image: url(/Images\Explore_images\third_col.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.fourth_col{
+    background-image: url(/Images/Explore_images/fourth_col.png);
+    background-repeat: no-repeat;
+    background-size: contain;   
+    
+}

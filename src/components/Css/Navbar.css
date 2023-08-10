@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --primary:#5628AE;
+    --black:#1F1E25;
+}
+
+.navbar_container{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+.navbar_col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_row .left_side {
+    display: inline-flex;
+}
+
+.navbar_row .left_side li {
+    list-style-type: none;
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.96px;
+}
+
+.navbar_row .right_side a{
+    text-decoration: none;
+}
+
+.navbar_row .right_side ul{
+    display: flex;
+    gap: 48px;
+}
+
+.navbar_row .right_side li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.64px;
+    text-decoration: none;
+}
+
+.navbar_row .right_side li a{
+    color: var(--black);
+}
+
+
