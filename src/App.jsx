@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>  
+    {/* Without Single Page Application */}
       <Navbar/>
       <Home/>
       <Explore/>
