@@ -1,0 +1,17 @@
+.card_paragraph{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
+  }
+
+.products_container img{
+  object-fit: contain ;
+  
+}
+
+.card_img{
+  display: flex;
+  justify-content: center ;
+}
+

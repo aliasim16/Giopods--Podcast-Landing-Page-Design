@@ -12,7 +12,6 @@
 }
 .footer_container{
     font-style: normal;
-    line-height: normal;
     margin-top: 100px;
     font-family: 'Roboto', sans-serif;
     background-color: var(--black);
@@ -23,9 +22,6 @@
     padding-top: 64px;
 }
 
-.footer_first_col{
-    
-}
 
 .footer_first_col h1{
     color: var(--white);
