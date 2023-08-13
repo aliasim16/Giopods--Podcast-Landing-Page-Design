@@ -8,7 +8,6 @@ import Navbar from "./components/Navbar"
 import Our from "./components/Our"
 import Phone from "./components/Phone"
 import Footer from "./components/Footer"
-import "bootstrap/dist/css/bootstrap.min.css"
 import Products from './components/Products';
 
 function App() {

@@ -1,17 +1,53 @@
+:root{
+  --primary:#5628AE;
+  --secondary: #0D2F5D;
+  --black:#1F1E25;
+  --white:#FFF;
+  --accent: #F5F3FF;
+  --gray-200: #EAECF0;
+  --gray-300: #D0D5DD;
+  --gray-500: #667085;
+}
+
 .card_paragraph{
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
-    overflow: hidden; 
+    overflow: hidden;
+    color: #1F1E25;; 
   }
 
-.products_container img{
-  object-fit: contain ;
+
+  form label{
+    font-size: 24px;
+    
+  }
+
+
+  form input{
+    
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    color: var(--gray-500);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    border-radius: 8px;
+    border: 1px solid var(--gray-300, #D0D5DD);
+    background: var(--base-white, #FFF);
+    
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  }   
+ 
   
+/* .products_container img{
+  object-fit: contain ;
 }
 
 .card_img{
   display: flex;
   justify-content: center ;
-}
+} */
 
