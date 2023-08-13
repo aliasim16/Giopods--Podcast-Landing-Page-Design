@@ -6,7 +6,7 @@ function Creating(props) {
         <div className="container creating_container">
             <div className="row creating_row">
                 <div className="col-sm">
-                    <img src="/Images/Creating_images/Microphone.png" alt="microphone.png" />
+                    <img src="/src/Images/Creating_images/Microphone.png" alt="microphone.png" />
                 </div>
                 <div className="col-sm">
                     <h1>Easeof creating <br /> & listening to <br />podcasts</h1>

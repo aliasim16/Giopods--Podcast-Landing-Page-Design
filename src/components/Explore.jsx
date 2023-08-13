@@ -13,9 +13,7 @@ function Explore(props) {
             <div className="col-sm first_col ">
                 <div className="box">
                     <div className="music_platforms">
-                        <img src="Images\Explore_images\sound_cloud.png" alt="sound_cloud.png" />
-                        <img src="Images/Explore_images/spotify.png" alt="spotify.png" />
-                        <img src="Images\Explore_images\google_play_music.png" alt="google_play_music.png" />
+                        <img src="/src/Images/Explore_images/sound_cloud.png" alt="sound_cloud" />
                     </div>
                     <div className="text">
                         <h1>Thriller by Michael Jackson</h1>
@@ -25,9 +23,9 @@ function Explore(props) {
             <div className="col-sm second_col ">
             <div className="box">
                 <div className="music_platforms">
-                    <img src="Images\Explore_images\sound_cloud.png" alt="sound_cloud.png" />
-                    <img src="Images/Explore_images/spotify.png" alt="spotify.png" />
-                    <img src="Images\Explore_images\google_play_music.png" alt="google_play_music.png" />
+                    <img src="/src/Images/Explore_images/sound_cloud.png" alt="" />
+                    <img src="/src/Images/Explore_images/spotify.png" alt="" />
+                    <img src="/src/Images/Explore_images/google_play_music.png" alt="" />
                 </div>
                 <div className="text">
                     <h1>Abbey Road by The Beatles</h1>
@@ -37,10 +35,9 @@ function Explore(props) {
             <div className="col-sm third_col ">
             <div className="box">
                 <div className="music_platforms">
-                    <img src="Images\Explore_images\sound_cloud.png" alt="sound_cloud.png" />
-                    <img src="Images/Explore_images/spotify.png" alt="spotify.png" />
-                    <img src="Images\Explore_images\google_play_music.png" alt="google_play_music.png" />
-                </div>
+                    <img src="/src/Images/Explore_images/sound_cloud.png" alt="" />
+                    <img src="/src/Images/Explore_images/spotify.png" alt="" />
+                    <img src="/src/Images/Explore_images/google_play_music.png" alt="" />                </div>
                 <div className="text">
                     <h1>Nevermind by Nirvana</h1>
                 </div>
@@ -49,9 +46,9 @@ function Explore(props) {
             <div className="col-sm fourth_col ">
             <div className="box">
                 <div className="music_platforms">
-                    <img src="Images\Explore_images\sound_cloud.png" alt="sound_cloud.png" />
-                    <img src="Images/Explore_images/spotify.png" alt="spotify.png" />
-                    <img src="Images\Explore_images\google_play_music.png" alt="google_play_music.png" />
+                    <img src="/src/Images/Explore_images/sound_cloud.png" alt="" />
+                    <img src="/src/Images/Explore_images/spotify.png" alt="" />
+                    <img src="/src/Images/Explore_images/google_play_music.png" alt="" />
                 </div>
                 <div className="text">
                     <h1>Blue by Joni Mitchell</h1>

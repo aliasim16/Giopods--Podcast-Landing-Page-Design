@@ -16,7 +16,7 @@ function Home(props) {
                     </button>
                     </div>
                     <div className="col-sm-6">
-                      <img src="Images\Home_images\Home_page_man.png"  />
+                      <img src="/src/Images\Home_images\Home_page_man.png"  />
                     </div>
                 </div>
             </div>

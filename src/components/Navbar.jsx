@@ -15,13 +15,21 @@ function Navbar(props) {
           <div className=" right_side">
               <nav>
                 <ul>
-                  
-                  < Link to="/"><li> <a id="home"  href="#">Home</a> </li></ Link>
-                  < Link to="/explore" ><li> <a id="about" href="#">About</a> </li></  Link>
-                  < Link to="/creating" ><li> <a id="channel" href="#">Channel</a> </li></ Link>
-                  < Link to="/episodes"><li> <a id="episodes" href="#">Episodes</a> </li></Link>
-                  < Link to="/blog"><li> <a id="blog" href="#">Blog</a> </li></Link>
-                  
+                  <Link  to="/"> 
+                  <li> <a id="home"  href="#">Home</a> </li>
+                  </Link>
+                  <Link  to="/explore" >
+                    <li> <a id="about" href="#">About</a> </li>
+                  </Link>
+                  <Link  to="/creating" >
+                    <li> <a id="channel" href="#">Channel</a> </li>
+                  </Link>
+                  <Link  to="/episodes">
+                    <li> <a id="episodes" href="#">Episodes</a> </li>
+                  </Link>
+                  <Link  to="/blog">
+                    <li> <a id="blog" href="#">Blog</a> </li>
+                  </Link>
                 </ul>
               </nav>
           </div>

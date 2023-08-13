@@ -6,7 +6,7 @@ function Phone(props) {
         <div className="container phone_container">
             <div className="row phone_row">
                 <div className="col-sm phone_col">
-                    <img src="/Images/Phone_images/iPhone 12 Pro 1.png" alt="" />
+                    <img src="/src/Images/Phone_images/iPhone 12 Pro 1.png" alt="" />
                 </div>
                 <div className="col-sm text_col ">
                     <h1>Specially built for simplicity and speed</h1>
@@ -14,7 +14,7 @@ function Phone(props) {
                     <div className="button">
                             <div className="playstore">
                                 <div className="left">
-                                    <img src="/Images/Phone_images/Google Play logo.png"  />
+                                    <img src="/src/Images/Phone_images/Google Play logo.png"  />
                                 </div>
                                 <div className="right">
                                     {/* <img src="/Images/Phone_images/Get it on.png"  /> */}
@@ -34,11 +34,11 @@ function Phone(props) {
   <path d="M32.6089 6.22499C32.0189 6.83099 31.2859 7.13399 30.4089 7.13399C29.5319 7.13399 28.7989 6.83099 28.2099 6.22499C27.6199 5.61899 27.3259 4.87699 27.3259 3.99999C27.3259 3.12299 27.6199 2.38099 28.2099 1.77499C28.7989 1.16899 29.5319 0.86499 30.4089 0.86499C31.2809 0.86499 32.0129 1.16999 32.6049 1.77899C33.1969 2.38799 33.4929 3.12799 33.4929 3.99999C33.4929 4.87699 33.1979 5.61899 32.6089 6.22499ZM28.7789 5.72199C29.2229 6.17199 29.7659 6.39599 30.4089 6.39599C31.0519 6.39599 31.5959 6.17099 32.0389 5.72199C32.4829 5.27199 32.7059 4.69799 32.7059 3.99999C32.7059 3.30199 32.4829 2.72799 32.0389 2.27799C31.5959 1.82799 31.0519 1.60399 30.4089 1.60399C29.7659 1.60399 29.2229 1.82899 28.7789 2.27799C28.3359 2.72799 28.1129 3.30199 28.1129 3.99999C28.1129 4.69799 28.3359 5.27199 28.7789 5.72199Z" stroke="white" stroke-width="0.2" stroke-miterlimit="10"/>
   <path d="M34.5749 7V1H35.513L38.429 5.667H38.4619L38.429 4.511V1H39.1999V7H38.3949L35.344 2.106H35.3109L35.344 3.262V7H34.5749Z" stroke="white" stroke-width="0.2" stroke-miterlimit="10"/>
 </svg>
-                                    <img src="/Images/Phone_images/Google Play.png"  />
+                                    <img src="src/Images/Phone_images/Google Play.png"  />
                                 </div>
                             </div>
                         <div className="appstore">
-                            <img src="/Images/Phone_images/Mobile app store badge.png"  />
+                            <img src="src/Images/Phone_images/Mobile app store badge.png"  />
                         </div>
                     </div>
                 </div>

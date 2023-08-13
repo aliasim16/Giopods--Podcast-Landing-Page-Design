@@ -58,25 +58,25 @@
 }
 
 .first_col{
-    background-image: url(/Images/Explore_images/first_col.png);
+    background-image: url(/src/Images/Explore_images/first_col.png);
     background-repeat: no-repeat;
     background-size: contain;   
 }
 
 .second_col{
-    background-image: url(/Images/Explore_images/second_col.png);
+    background-image: url(/src/Images/Explore_images/second_col.png);
     background-repeat: no-repeat;
     background-size: contain;   
     
 }
 .third_col{
-    background-image: url(/Images\Explore_images\third_col.jpg);
+    background-image: url(/src/Images\Explore_images\third_col.jpg);
     background-repeat: no-repeat;
     background-size: contain; 
 }
 
 .fourth_col{
-    background-image: url(/Images/Explore_images/fourth_col.png);
+    background-image: url(/src/Images/Explore_images/fourth_col.png);
     background-repeat: no-repeat;
     background-size: contain;   
     
