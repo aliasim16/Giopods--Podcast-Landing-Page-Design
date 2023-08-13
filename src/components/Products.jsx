@@ -40,7 +40,7 @@ function Products() {
                         </div>
                         <input 
                         onChange={(e)=> setSearch(e.target.value) }
-                        class="form-control form-control-lg"
+                        className="form-control form-control-lg"
                         type="text" 
                         placeholder="Kategoriye veya Kulaklık ismine göre arama yapabilrsiniz "
                         aria-label=".form-control-lg example"/>
