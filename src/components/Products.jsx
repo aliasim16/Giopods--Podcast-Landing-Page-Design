@@ -8,7 +8,7 @@ const getFilteredLists = (search,list) =>{
     }
     
     return list.filter((item)=> 
-    item.name.includes(search) ||
+    item.name.toString().toLowerCase().includes(search) ||
     item.category.includes(search ))
 }
 function Products() {
@@ -68,7 +68,7 @@ function Products() {
                         <div className="card-body">
                             <h5 className="card-title">{item.name}</h5>
                             <p id="card_paragraph" className="card-text card_paragraph">{item.description}</p>
-                            <p>{item.category}</p>
+                            <p>Müzik Türü:{item.category}</p>
                             <button className='btn btn-primary btn_continue_reading' >
                                 <a href="#" className="btn btn-primary">Continue Reading</a>
                             </button>
