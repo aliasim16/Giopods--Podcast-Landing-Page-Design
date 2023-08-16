@@ -68,7 +68,7 @@ function Products() {
                         <div className="card-body">
                             <h5 className="card-title">{item.name}</h5>
                             <p id="card_paragraph" className="card-text card_paragraph">{item.description}</p>
-                            <p>Müzik Türü:{item.category}</p>
+                            <p id='card_category' >Müzik Türü: <span>{item.category}</span></p>
                             <button className='btn btn-primary btn_continue_reading' >
                                 <a href="#" className="btn btn-primary">Continue Reading</a>
                             </button>

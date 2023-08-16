@@ -42,12 +42,30 @@
   }   
  
   
-/* .products_container img{
-  object-fit: contain ;
+ .products_container img{
+
+  animation: transtion 0.7s ;
 }
 
-.card_img{
-  display: flex;
-  justify-content: center ;
-} */
+@keyframes transtion{
+  from{
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to{
+    opacity: 1;
+    transform:scale(1);
+  }
+}
+
+.card-body p span{
+  color: var(--primary);
+}
+
+#card_category{
+  font-size: larger;
+  font-weight: 500;
+}
+
 
