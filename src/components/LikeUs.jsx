@@ -1,4 +1,4 @@
-import "./Css/LikeUs.css"
+import "../Css/LikeUs.css"
 
 function LikeUs(props) {
   return (

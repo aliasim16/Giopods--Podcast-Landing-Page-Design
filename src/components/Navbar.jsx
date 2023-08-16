@@ -1,4 +1,4 @@
-import "./Css/Navbar.css"
+import "../Css/Navbar.css"
 import { Link } from "react-router-dom";
 
 function Navbar(props) {
@@ -29,6 +29,10 @@ function Navbar(props) {
                   </Link>
                   <Link  to="/blog">
                     <li> <a id="blog" href="#">Blog</a> </li>
+                  </Link>
+                  <Link  to="/basket">
+                    <li> <a id="basket" href="#">Sepet</a> </li>
+                  
                   </Link>
                 </ul>
               </nav>

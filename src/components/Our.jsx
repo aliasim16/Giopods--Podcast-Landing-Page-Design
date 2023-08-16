@@ -1,4 +1,4 @@
-import "./Css/Our.css"
+import "../Css/Our.css"
 
 function Our(props) {
   return (

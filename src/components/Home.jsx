@@ -1,4 +1,4 @@
-import "./Css/Home.css"
+import "../Css/Home.css"
 
 function Home(props) {
   return (

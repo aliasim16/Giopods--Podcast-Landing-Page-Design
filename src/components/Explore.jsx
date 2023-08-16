@@ -1,4 +1,4 @@
-import "./Css/Explore.css"
+import "../Css/Explore.css"
 
 function Explore(props) {
   return (

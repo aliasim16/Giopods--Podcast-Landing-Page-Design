@@ -1,4 +1,4 @@
-import "./Css/Creating.css"
+import "../Css/Creating.css"
 
 function Creating(props) {
   return (

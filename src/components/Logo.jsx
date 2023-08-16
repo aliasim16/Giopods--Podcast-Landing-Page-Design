@@ -1,4 +1,4 @@
-import "./Css/Logo.css"
+import "../Css/Logo.css"
 
 function Logo(props) {
   return (

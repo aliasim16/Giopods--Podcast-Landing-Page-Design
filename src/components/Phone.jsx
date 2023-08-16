@@ -1,4 +1,4 @@
-import "./Css/Phone.css"
+import "../Css/Phone.css"
 
 function Phone(props) {
   return (
