@@ -18,7 +18,9 @@ function Products() {
         setList,
         setSearch,
         setBasket,
-        setTotal
+        setTotal,
+        isloading
+
     } = useContext(MainContext)
 
 
@@ -30,8 +32,8 @@ function Products() {
 
                 <div className="col-sm column">
                     <form >
-                        <div className="label">
-                            <label className='my-3' htmlFor="search">Search</label>
+                        <div className="label text-center ">
+                            <label className='my-3 ' style={{fontSize:"36px",color:"#5628AE"}} htmlFor="search">Search</label>
                         </div>
                         <input 
                         onChange={(e)=> setSearch(e.target.value) }
@@ -44,6 +46,14 @@ function Products() {
                 </div>
             </div>
             <div className="row">
+            {
+                isloading && 
+                <div class="d-flex justify-content-center align-item-center">
+                <div class="spinner-border spinner " style={{color:"#5628AE",width:"9rem", height:"9rem",fontSize:"36px" }} role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                </div>
+            }
             {
             filteredList.map((item=>
                 <div className="col-sm-6 col-md-4 col-lg-3 my-3" key={item.id}>
@@ -59,8 +69,8 @@ function Products() {
                                 </button>
                                 <button onClick={()=>{ 
                                     
+                                    setTotal((total)=>total+1)
                                     setBasket([...basket,item])
-                                    setTotal(+1)
                                     console.log(basket)
                                     console.log(total)
                                 }} className='btn btn-success btn_continue_reading' >

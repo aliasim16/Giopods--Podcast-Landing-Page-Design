@@ -77,4 +77,17 @@
   padding: 1px;
 }
 
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 20%;
+}
 
+.spinner{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  margin-top:300px;
+}

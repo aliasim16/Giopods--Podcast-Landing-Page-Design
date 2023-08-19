@@ -13,7 +13,9 @@ function Basket() {
         setList,
         setSearch,
         setBasket,
-        setTotal
+        setTotal,
+        isloading
+
     } = useContext(MainContext)
 
   return (
@@ -21,7 +23,16 @@ function Basket() {
         <div className="container">
             <div className="row">
 
-            <h1>Sepetim</h1>
+            
+            <h1>Sepetinizde olan ürün sayısı: {total} </h1>
+            {
+                isloading && 
+                <div class="d-flex justify-content-center align-item-center">
+                <div class="spinner-border spinner " style={{color:"#5628AE",width:"9rem", height:"9rem",fontSize:"36px" }} role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                </div>
+            }
             {
             basket.map((item=>
                 <div className="col-sm-6 col-md-4 col-lg-3 my-3" key={item.id}>
@@ -32,8 +43,13 @@ function Basket() {
                             <p id="card_paragraph" className="card-text card_paragraph">{item.description}</p>
                             <p id='card_category' >Müzik Türü: <span>{item.category}</span></p>
                             <div className="buttons">
-                                <button className='btn btn-primary btn_continue_reading' >
-                                    <a href="#" className="btn btn-primary">Continue Reading</a>
+                                
+                                <button className='btn btn-danger delete' onClick={()=>{
+                                    setBasket((current)=>
+                                        current.filter((product)=>product.id !== item.id))
+                                        setTotal((total)=>total-1)
+                                }} >
+                                    <a href="#" className="btn btn-danger">Sepetten Çıkar</a>
                                 </button>
                                 
                             </div>

@@ -11,7 +11,7 @@ function Home(props) {
                     <div className="col-sm-6">
                     <h1>Start by figuring out what topics you're interested in</h1>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <button type="button">
+                    <button type="button"  >
                         Get Started
                     </button>
                     </div>

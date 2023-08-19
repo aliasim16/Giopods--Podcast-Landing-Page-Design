@@ -31,7 +31,7 @@ function App() {
   const [search,setSearch] = useState("")
   const  [basket,setBasket] = useState([])
   let [total,setTotal] = useState(0)
-
+  const [isloading, setIsloading] = useState(true)
 
 
   useEffect(()=>{
@@ -39,7 +39,7 @@ function App() {
     .then(res=>res.json())
     .then((list)=>setList(list))
     .catch(err=>console.log(err))
-    
+    .finally(()=>setIsloading(false))
   },[])
   
   const filteredList = getFilteredLists(search,list);
@@ -53,7 +53,8 @@ function App() {
       setList,
       setSearch,
       setBasket,
-      setTotal
+      setTotal,
+      isloading
   }
 
   return (
