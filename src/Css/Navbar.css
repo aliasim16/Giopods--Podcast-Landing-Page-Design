@@ -3,52 +3,26 @@
 :root{
     --primary:#5628AE;
     --black:#1F1E25;
+    --secondary: #0D2F5D;
+    --black:#1F1E25;
+    --white:#FFF;
+    --accent: #F5F3FF;
+    --gray-200: #EAECF0;
+    --gray-300: #D0D5DD;
+    --gray-500: #667085;  
 }
 
 .navbar_container{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    line-height: normal;
-}
-
-.navbar_col{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0px;
 }
 
-.navbar_row .left_side {
-    display: inline-flex;
-}
-
-.navbar_row .left_side li {
-    list-style-type: none;
-    color: var(--primary);
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: -0.96px;
-}
-
-.navbar_row .right_side a{
-    text-decoration: none;
-}
-
-.navbar_row .right_side ul{
-    display: flex;
-    gap: 48px;
-}
-
-.navbar_row .right_side li {
-    list-style-type: none;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: -0.64px;
-    text-decoration: none;
-}
-
-.navbar_row .right_side li a{
+.ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
     color: var(--black);
 }
-
-
