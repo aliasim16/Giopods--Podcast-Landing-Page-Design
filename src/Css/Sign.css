@@ -41,17 +41,16 @@
 
 .sign_box label{
     color: var(--secondary);
-    
     line-height: 24px; /* 150% */
-    margin-bottom: 8px;
+    margin-bottom: 16px;
+    font-size: 36px;
 }
 
 .sign_box input {
     width: 100%;
-    height: 40px;
-    border: 1px solid var(--gray-200);
-    border-radius: 4px;
-    padding: 8px;
+    border: 1px solid var(--gray-300);
+    border-radius: 8px;
+    padding: 12px;
     margin-bottom: 16px;
     margin-top: 8px;
     
@@ -60,7 +59,7 @@
     width: 100%;
     height: 40px;
     border: 1px solid var(--gray-200);
-    border-radius: 4px;
+    border-radius: 12px;
     padding: 8px;
     margin-bottom: 8px;
     background-color: var(--primary);

@@ -40,21 +40,21 @@ function Sign() {
                         localStorage.setItem('password',document.getElementById('password').value)
                         console.log('kayıt yapıldı')
                         e.preventDefault()
+                        document.getElementById('succes').innerHTML='Kayıt Yapıldı'
                     }} type="submit">Kayıt Ol</button>
-                    <h1 id='error' ></h1>
+                    <h1 id='error'className='text-danger' ></h1>
+                    <h1 id='succes' className='text-success' ></h1>
                     <button onClick={(e)=>{
                         if(localStorage.getItem('username')===document.getElementById('username').value && localStorage.getItem('password')===document.getElementById('password').value){
                             setIslogin(true)
                             console.log('giriş yapıldı')
                             e.preventDefault()
+                            document.getElementById('succes').innerHTML='Giriş Yapıldı'
                         }
                         else if (localStorage.getItem('username')!== document.getElementById('username').value || localStorage.getItem('password')!==document.getElementById('password').value){
                             setIslogin(false)
                             console.log('giriş yapılamadı')
                             e.preventDefault()
-                        }
-                        else{
-                            setIslogin(false)
                             document.getElementById('error').innerHTML='Kullanıcı adı veya şifre hatalı'
                         }
                     }} type="submit">Giriş Yap</button>
