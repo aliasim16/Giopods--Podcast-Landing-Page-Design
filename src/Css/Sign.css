@@ -9,26 +9,23 @@
     --gray-500: #667085;
 }
 
-.sign_container{
+.sign_row{
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     background-color: var(--black);
     color: var(--white);
-    height: 100vh;
     padding:  16px 16px 16px 16px;
     margin-bottom: 32px;
     border-radius: 8px;
 }
 
 .sign_box{
-    height:95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    padding: 16px;
-    margin: 16px 16px;
+    padding: 72px;
     color: #1F1E25;
     background-color: var(--white);
 }
@@ -68,15 +65,8 @@
     font-size: 16px;
     cursor: pointer;
 }
-
-.sign_row .left_side{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1 0 0;
-    background-color: var(--primary);
-    border-radius: 8px;
-    margin-left:16px ;
+.sign_box button:hover{
+    background-color: var(--secondary);
+    color: var(--white);
 }
 

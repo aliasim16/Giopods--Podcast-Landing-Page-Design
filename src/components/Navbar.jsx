@@ -56,7 +56,7 @@ function Navbar(props) {
           </button>
           <div className="right">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ul">
+              <div class="navbar-nav ul ">
                     <Link  to="/"> 
                     <li> <a className="nav-link" id="home" aria-current="page"  href="#">Home</a> </li>
                     </Link>

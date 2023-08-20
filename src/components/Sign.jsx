@@ -23,7 +23,6 @@ function Sign() {
     <>
     <div className="container sign_container ">
         <div className="row sign_row ">
-            
             <div className="col-sm col-md col-lg  sign_box">
                 <h1>Kayıt Ol / Giriş Yap</h1>
                 <form action=''>
