@@ -19,7 +19,8 @@ function Products() {
         setSearch,
         setBasket,
         setTotal,
-        isloading
+        isloading,
+        islogin
 
     } = useContext(MainContext)
 
@@ -27,6 +28,9 @@ function Products() {
   return (
     
     <>
+    {
+        islogin &&
+            
         <div className="container products_container my-4">
             <div className="row ">
 
@@ -85,6 +89,8 @@ function Products() {
             }
             </div>
         </div>
+        
+    }
     </>
   )
 }

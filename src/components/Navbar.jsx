@@ -28,12 +28,12 @@ function Navbar(props) {
                     <li> <a id="episodes" href="#">Episodes</a> </li>
                   </Link>
                   <Link  to="/blog">
-                    <li> <a id="blog" href="#">Blog</a> </li>
+                    <li> <a id="blog" href="#">Products</a> </li>
                   </Link>
                   <Link  to="/basket">
-                    <li> <a id="basket" href="#">Sepet</a> </li>
-                  
+                    <li> <a id="basket" href="#">Sepet</a> </li>  
                   </Link>
+                  <li> <a href="#" > Kayıt Ol </a> </li>
                 </ul>
               </nav>
           </div>

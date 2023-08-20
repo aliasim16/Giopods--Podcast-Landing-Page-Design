@@ -32,6 +32,7 @@ function App() {
   const  [basket,setBasket] = useState([])
   let [total,setTotal] = useState(0)
   const [isloading, setIsloading] = useState(true)
+  const [islogin, setIslogin] = useState(true) 
 
 
   useEffect(()=>{
@@ -54,7 +55,9 @@ function App() {
       setSearch,
       setBasket,
       setTotal,
-      isloading
+      isloading,
+      islogin,
+      setIslogin
   }
 
   return (

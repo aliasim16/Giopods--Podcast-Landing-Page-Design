@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 12px 0px;
 }
 
 .navbar_row .left_side {
@@ -24,7 +25,7 @@
 .navbar_row .left_side li {
     list-style-type: none;
     color: var(--primary);
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: -0.96px;
 }
@@ -41,7 +42,7 @@
 .navbar_row .right_side li {
     list-style-type: none;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: -0.64px;
     text-decoration: none;
 }
