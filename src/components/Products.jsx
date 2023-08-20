@@ -69,7 +69,7 @@ function Products() {
                             <p id='card_category' >Müzik Türü: <span>{item.category}</span></p>
                             <div className="buttons">
                                 <button className='btn btn-primary btn_continue_reading' >
-                                    <a href="#" className="btn btn-primary">Continue Reading</a>
+                                    <a  className="btn btn-primary">Continue Reading</a>
                                 </button>
                                 <button onClick={()=>{ 
                                     
@@ -78,7 +78,7 @@ function Products() {
                                     console.log(basket)
                                     console.log(total)
                                 }} className='btn btn-success btn_continue_reading' >
-                                    <a href="#" className="btn success">Sepete Ekle</a>
+                                    <a  className="btn success">Sepete Ekle</a>
                                 </button>
                             </div>
 

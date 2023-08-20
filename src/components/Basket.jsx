@@ -50,7 +50,7 @@ function Basket() {
                                         current.filter((product)=>product.id !== item.id))
                                         setTotal((total)=>total-1)
                                 }} >
-                                    <a href="#" className="btn btn-danger">Sepetten Çıkar</a>
+                                    <a className="btn btn-danger">Sepetten Çıkar</a>
                                 </button>
                                 
                             </div>
