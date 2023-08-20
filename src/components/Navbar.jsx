@@ -33,7 +33,10 @@ function Navbar(props) {
                   <Link  to="/basket">
                     <li> <a id="basket" href="#">Sepet</a> </li>  
                   </Link>
-                  <li> <a href="#" > Kayıt Ol </a> </li>
+                  <Link to="/sign" >
+                      <li> <a id="sign" href="#">Sign Up</a> </li>
+                  </Link>
+                  
                 </ul>
               </nav>
           </div>

@@ -27,9 +27,9 @@ function Basket() {
             <h1>Sepetinizde olan ürün sayısı: {total} </h1>
             {
                 isloading && 
-                <div class="d-flex justify-content-center align-item-center">
-                <div class="spinner-border spinner " style={{color:"#5628AE",width:"9rem", height:"9rem",fontSize:"36px" }} role="status">
-                    <span class="visually-hidden">Loading...</span>
+                <div className="d-flex justify-content-center align-item-center">
+                <div className="spinner-border spinner " style={{color:"#5628AE",width:"9rem", height:"9rem",fontSize:"36px" }} role="status">
+                    <span className="visually-hidden">Loading...</span>
                 </div>
                 </div>
             }

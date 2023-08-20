@@ -12,7 +12,8 @@
 }
 .footer_container{
     font-style: normal;
-    margin-top: 100px;
+    position:relative;
+    bottom:0;
     font-family: 'Roboto', sans-serif;
     background-color: var(--black);
     color: var(--white);

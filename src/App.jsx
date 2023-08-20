@@ -13,6 +13,7 @@ import Basket from './components/Basket';
 import { MainContext } from './context/context';
 import { useState, useEffect } from 'react';
 import './context/context'
+import Sign from './components/Sign';
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
   const  [basket,setBasket] = useState([])
   let [total,setTotal] = useState(0)
   const [isloading, setIsloading] = useState(true)
-  const [islogin, setIslogin] = useState(true) 
+  const [islogin, setIslogin] = useState(false) 
 
 
   useEffect(()=>{
@@ -82,7 +83,10 @@ function App() {
         </Route>
         <Route path="/basket"
           element={<Basket />}>
-        </Route>"
+        </Route>
+        <Route path="/sign" 
+          element={<Sign/>}>
+        </Route>
 
       </Routes>
 

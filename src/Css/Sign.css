@@ -1,0 +1,83 @@
+:root{
+    --primary:#5628AE;
+    --secondary: #0D2F5D;
+    --black:#1F1E25;
+    --white:#FFF;
+    --accent: #F5F3FF;
+    --gray-200: #EAECF0;
+    --gray-300: #D0D5DD;
+    --gray-500: #667085;
+}
+
+.sign_container{
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+    height: 100vh;
+    padding:  16px 16px 16px 16px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+.sign_box{
+    height:95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 16px;
+    color: #1F1E25;
+    background-color: var(--white);
+}
+.sign_box h1{
+    color: var(--secondary);
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.sign_box label{
+    color: var(--secondary);
+    
+    line-height: 24px; /* 150% */
+    margin-bottom: 8px;
+}
+
+.sign_box input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--gray-200);
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    
+}
+.sign_box button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--gray-200);
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sign_row .left_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    background-color: var(--primary);
+    border-radius: 8px;
+    margin-left:16px ;
+}
+
