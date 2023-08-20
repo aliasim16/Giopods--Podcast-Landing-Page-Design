@@ -24,16 +24,16 @@ function Products() {
 
     } = useContext(MainContext)
 
+    // islogin ? document.getElementById("login").innerHTML = "Hoşgeldiniz" : document.getElementById("login").innerHTML = "Lütfen Giriş Yapınız !"
+    // 
 
-  return (
-    
-    <>
-    {
-        
-            
-        <div className="container products_container my-4">
+    return (
+        <>
+    { islogin ?  
+    (
+        <div className="container products_container my-4  ">
             <div className="row ">
-
+                <h1 id='welcome'>Hoşgeldin {localStorage.getItem('username')} </h1>
                 <div className="col-sm column">
                     <form >
                         <div className="label text-center ">
@@ -88,7 +88,14 @@ function Products() {
             ))
             }
             </div>
-        </div>
+            </div>
+    )
+            :
+            (
+                <div className="login">
+                    <h1 id='login' >Ürünlüre ulaşmak için lütfen giriş yapın!</h1>
+                </div>
+            )
         
     }
     </>

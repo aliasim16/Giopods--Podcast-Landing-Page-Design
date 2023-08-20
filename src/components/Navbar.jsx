@@ -34,7 +34,7 @@ function Navbar(props) {
                     <li> <a id="basket" href="#">Sepet</a> </li>  
                   </Link>
                   <Link to="/sign" >
-                      <li> <a id="sign" href="#">Sign Up</a> </li>
+                      <li> <a id="sign" href="#">Kayıt Ol</a> </li>
                   </Link>
                   
                 </ul>
