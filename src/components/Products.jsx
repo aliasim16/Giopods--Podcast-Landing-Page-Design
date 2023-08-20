@@ -37,9 +37,9 @@ function Products() {
                 <div className="col-sm column">
                     <form >
                         <div className="label text-center ">
-                            <label className='my-3 ' style={{fontSize:"36px",color:"#5628AE"}} htmlFor="search">Search</label>
+                            <label className='my-3 ' id='search' htmlFor="search">Search</label>
                         </div>
-                        <input 
+                        <input
                         onChange={(e)=> setSearch(e.target.value) }
                         className="form-control form-control-lg"
                         type="text" 
