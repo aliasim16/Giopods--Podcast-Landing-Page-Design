@@ -14,6 +14,8 @@ function Explore(props) {
                 <div className="box">
                     <div className="music_platforms">
                         <img src="/src/Images/Explore_images/sound_cloud.png" alt="sound_cloud" />
+                        <img src="/src/Images/Explore_images/spotify.png" alt="" />
+                        <img src="/src/Images/Explore_images/google_play_music.png" alt="" />
                     </div>
                     <div className="text">
                         <h1>Thriller by Michael Jackson</h1>
