@@ -14,9 +14,10 @@
 
 .navbar_container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
+.n
 
 .ul li {
     list-style: none;
@@ -31,5 +32,5 @@
     color: var(--primary);
     font-size: 30px;
     font-weight: 700;
-    
+
 }
