@@ -20,7 +20,7 @@
     background: linear-gradient(134deg, #5628AE 0%, #0D2F5D 65.63%);
     border-radius: 24px 24px 50px 24px;
     flex-shrink: 0;
-    /* background: url(Home_images\Home_page_man.png), lightgray 50% / cover no-repeat ; */
+    /* background: url(Home_images/Home_page_man.png), lightgray 50% / cover no-repeat ; */
     background-size: contain;
     background-position:right;
     background-repeat: no-repeat;   

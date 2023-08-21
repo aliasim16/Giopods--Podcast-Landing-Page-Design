@@ -10,19 +10,19 @@ function LikeUs(props) {
       </div>
     <div className="row second_row">
       <div className="col-sm likeus_box ">
-        <img src="/src/Images\LikeUs_images\first_col.png"  />
+        <img src="/src/Images/LikeUs_images/first_col.png"  />
         <h1>Multi platform</h1>
       </div>
       <div className="col-sm likeus_box ">
-        <img src="/src/Images\LikeUs_images\second_col.png"  />
+        <img src="/src/Images/LikeUs_images/second_col.png"  />
         <h1>Free download </h1>
       </div>
       <div className="col-sm likeus_box ">
-        <img src="/src/Images\LikeUs_images\third_col.png"  />
+        <img src="/src/Images/LikeUs_images/third_col.png"  />
         <h1>Updated podcasts</h1>
       </div>
       <div className="col-sm likeus_box ">
-        <img src="/src/Images\LikeUs_images\fourth_col.png"  />
+        <img src="/src/Images/LikeUs_images/fourth_col.png"  />
         <h1>Quality sound </h1>
       </div>
     </div>

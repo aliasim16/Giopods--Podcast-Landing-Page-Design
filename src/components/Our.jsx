@@ -11,11 +11,11 @@ function Our(props) {
         <div className="row second_row">
             <div className="col-sm our_box ">
                 <div className="star">
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
                 </div>
                 <p>
                     Love their drink specials. Bartenders super nice.
@@ -32,11 +32,11 @@ function Our(props) {
             </div>
             <div className="col-sm our_box ">
                 <div className="star">
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
                 </div>
                 <p>
                     The Dropbox HQ in San Francisco is one of the best designed &
@@ -51,11 +51,11 @@ function Our(props) {
             </div>
             <div className="col-sm our_box ">
                 <div className="star">
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
-                <img src="/src/Images\Our_images\Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
+                <img src="/src/Images/Our_images/Star .png" alt="" />
                 </div>
                 <p>
                     I had I was very sad this day. There were friendly people at the bar that engaged with me.
