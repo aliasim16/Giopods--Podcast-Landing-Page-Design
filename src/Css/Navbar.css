@@ -17,15 +17,16 @@
     justify-content: space-around;
     align-items: center;
 }
-.n
 
-.ul li {
+
+.ul li a {
     list-style: none;
     display: inline-block;
     margin-right: 20px;
     font-size: 20px;
     font-weight: 500;
     color: var(--black);
+
 }
 .left a{
     text-decoration: none;

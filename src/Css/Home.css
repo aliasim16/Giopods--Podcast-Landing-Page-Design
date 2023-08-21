@@ -13,8 +13,6 @@
     margin-top: 40px;
 }
 
-
-
 .rectangle{
     position: relative;
     background: linear-gradient(134deg, #5628AE 0%, #0D2F5D 65.63%);
@@ -23,7 +21,8 @@
     /* background: url(Home_images/Home_page_man.png), lightgray 50% / cover no-repeat ; */
     background-size: contain;
     background-position:right;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    margin-bottom: 50px;   
 }
 
 .rectangle img{
