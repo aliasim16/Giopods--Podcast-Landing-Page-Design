@@ -71,8 +71,7 @@ function Products() {
                                 <button className='btn btn-primary btn_continue_reading' >
                                     <a  className="btn btn-primary">Continue Reading</a>
                                 </button>
-                                <button onClick={()=>{ 
-                                    
+                                <button onClick={()=>{
                                     setTotal((total)=>total+1)
                                     setBasket([...basket,item])
                                     console.log(basket)
@@ -80,8 +79,8 @@ function Products() {
                                 }} className='btn btn-success btn_continue_reading' >
                                     <a  className="btn success">Sepete Ekle</a>
                                 </button>
+                                
                             </div>
-
                         </div>
                     </div>
                 </div>

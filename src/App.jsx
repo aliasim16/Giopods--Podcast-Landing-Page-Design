@@ -1,4 +1,4 @@
-import { Router, Route, Routes } from 'react-router-dom';
+// componenets
 import Creating from "./components/Creating"
 import Explore from "./components/Explore"
 import Home from "./components/Home"
@@ -10,10 +10,12 @@ import Phone from "./components/Phone"
 import Footer from "./components/Footer"
 import Products from './components/Products';
 import Basket from './components/Basket';
+import Sign from './components/Sign';
+//
+import { Router, Route, Routes } from 'react-router-dom';
 import { MainContext } from './context/context';
 import { useState, useEffect } from 'react';
 import './context/context'
-import Sign from './components/Sign';
 
 
 function App() {
